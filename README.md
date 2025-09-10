@@ -1,7 +1,7 @@
 # EX-02-Cross-Platform-Prompting-Evaluating-Diverse-Techniques-in-AI-Powered-Text-Summarization
 
 ## AIM
-To evaluate and compare the effectiveness of prompting techniques (zero-shot, few-shot, chain-of-thought, role-based) across different AI platforms (e.g., ChatGPT, Gemini, Claude, Copilot) in a specific task: text summarization.
+To evaluate and compare the effectiveness of prompting techniques (zero-shot, few-shot, chain-of-thought, role-based) across different AI platforms (e.g., ChatGPT, Gemini,Perplexity) in a specific task: text summarization.
 
 ## Scenario:
 You are part of a content curation team for an educational platform that delivers quick summaries of research papers to undergraduate students. Your task is to summarize a 500-word technical article on "The Basics of Blockchain Technology" using multiple AI platforms and prompting strategies.
@@ -9,17 +9,74 @@ You are part of a content curation team for an educational platform that deliver
 Your goal is to determine which combination of prompting technique + platform provides the best summary in terms of:
 
 Accuracy
-
 Coherence
-
 Simplicity
-
 Speed
-
 User experience
 
 ## Algorithm
 
+# 1. Article Selection
+
+Choose a ~500-word technical article: “The Basics of Blockchain Technology”.
+
+# 2.Prompting Strategies
+
+Zero-shot: Directly ask the model to summarize without examples.
+
+Few-shot: Provide 2–3 example summaries of similar technical texts before asking for the summary.
+
+Chain-of-Thought (CoT): Instruct the model to break down the content logically step by step before generating the final summary.
+
+Role-based: Instruct the model to act in a role (e.g., “a university professor summarizing for freshmen students”).
+
+# 3.Platform Selection
+
+ChatGPT (OpenAI)
+
+Gemini (Google)
+
+Perplexity AI
+
+# 4.Execution
+
+Apply each prompting strategy on each platform with the same input article.
+
+Record the generated summary.
+
+Note the time taken to generate the summary.
+
+# 5.Evaluation Criteria
+
+Accuracy – Captures main ideas without distortion.
+
+Coherence – Logical flow and structure.
+
+Simplicity – Accessibility for undergraduate students.
+
+Speed – Response time of the platform.
+
+User Experience (UX) – Ease of use, readability, and ability to copy/share.
+
+# 6.Scoring & Analysis
+
+Assign scores from 1 (poor) to 5 (excellent) for each criterion.
+Tabulate results for comparison.
+Identify the best-performing strategy-platform combination.
+
 ## Result
+| Platform   | Prompt Type      | Accuracy | Coherence | Simplicity | Speed | UX | **Total (/25)** |
+| ---------- | ---------------- | -------- | --------- | ---------- | ----- | -- | --------------- |
+| ChatGPT    | Zero-shot        | 4        | 4         | 4          | 5     | 5  | 22              |
+| ChatGPT    | Few-shot         | 5        | 5         | 5          | 4     | 5  | **24**          |
+| ChatGPT    | Chain-of-Thought | 5        | 5         | 4          | 3     | 5  | 22              |
+| ChatGPT    | Role-based       | 5        | 5         | 5          | 4     | 5  | **24**          |
+| Gemini     | Zero-shot        | 3        | 3         | 3          | 5     | 4  | 18              |
+| Gemini     | Few-shot         | 4        | 4         | 4          | 4     | 4  | 20              |
+| Gemini     | Role-based       | 4        | 4         | 5          | 4     | 4  | 21              |
+| Perplexity | Zero-shot        | 4        | 4         | 4          | 5     | 4  | 21              |
+| Perplexity | Few-shot         | 4        | 4         | 5          | 4     | 4  | 21              |
+| Perplexity | Role-based       | 5        | 5         | 5          | 4     | 4  | **23**          |
+
 
 
