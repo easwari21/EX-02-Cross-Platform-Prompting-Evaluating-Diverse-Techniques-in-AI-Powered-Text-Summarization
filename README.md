@@ -79,4 +79,17 @@ Choose a technical article: “The Basics of Blockchain Technology”.
 | Perplexity | Role-based       | 5        | 5         | 5          | 4     | 4  | **23**          |
 
 
-T
+## Conclusion
+
+The best-performing combinations were:
+
+1.ChatGPT + Few-shot prompting → Total score: 24/25
+
+2.ChatGPT + Role-based prompting → Total score: 24/25
+
+3.Perplexity + Role-based prompting → Total score: 23/25
+
+
+ChatGPT performed the strongest overall, especially with few-shot and role-based prompts, delivering highly accurate and student-friendly summaries.
+Gemini was faster but weaker in coherence and accuracy, making it better suited for quick but less detailed outputs.
+Perplexity provided balanced results, particularly strong in role-based prompting, making it effective for clear, structured explanations.
