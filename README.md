@@ -53,7 +53,7 @@ Assign scores from 1 (poor) to 5 (excellent) for each criterion.
 Tabulate results for comparison.
 Identify the best-performing strategy-platform combination.
 
-### Result
+## Result
 | Platform   | Prompt Type      | Accuracy | Coherence | Simplicity | Speed | UX | **Total (/25)** |
 | ---------- | ---------------- | -------- | --------- | ---------- | ----- | -- | --------------- |
 | ChatGPT    | Zero-shot        | 4        | 4         | 4          | 5     | 5  | 22              |
@@ -68,4 +68,4 @@ Identify the best-performing strategy-platform combination.
 | Perplexity | Role-based       | 5        | 5         | 5          | 4     | 4  | **23**          |
 
 
-
+T
