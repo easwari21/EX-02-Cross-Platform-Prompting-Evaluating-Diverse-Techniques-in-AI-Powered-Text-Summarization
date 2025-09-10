@@ -18,14 +18,17 @@ User experience
 
 ### 1. Article Selection
 
-Choose a ~500-word technical article: “The Basics of Blockchain Technology”.
+Choose a technical article: “The Basics of Blockchain Technology”.
 
 ### 2.Prompting Strategies
 
-Zero-shot: Directly ask the model to summarize without examples.
-Few-shot: Provide 2–3 example summaries of similar technical texts before asking for the summary.
-Chain-of-Thought (CoT): Instruct the model to break down the content logically step by step before generating the final summary.
-Role-based: Instruct the model to act in a role (e.g., “a university professor summarizing for freshmen students”).
+1.Zero-shot: Directly ask the model to summarize without examples.
+
+2.Few-shot: Provide 2–3 example summaries of similar technical texts before asking for the summary.
+
+3.Chain-of-Thought (CoT): Instruct the model to break down the content logically step by step before generating the final summary.
+
+4.Role-based: Instruct the model to act in a role (e.g., “a university professor summarizing for freshmen students”).
 
 ### 3.Platform Selection
 
@@ -36,22 +39,30 @@ Role-based: Instruct the model to act in a role (e.g., “a university professor
 ### 4.Execution
 
 1.Apply each prompting strategy on each platform with the same input article.
+
 2.Record the generated summary.
+
 3.Note the time taken to generate the summary.
 
 ### 5.Evaluation Criteria
 
 1.Accuracy – Captures main ideas without distortion.
+
 2.Coherence – Logical flow and structure.
+
 3.Simplicity – Accessibility for undergraduate students.
+
 4.Speed – Response time of the platform.
+
 5.User Experience (UX) – Ease of use, readability, and ability to copy/share.
 
 ### 6.Scoring & Analysis
 
-Assign scores from 1 (poor) to 5 (excellent) for each criterion.
-Tabulate results for comparison.
-Identify the best-performing strategy-platform combination.
+1.Assign scores from 1 (poor) to 5 (excellent) for each criterion.
+
+2.Tabulate results for comparison.
+
+3.Identify the best-performing strategy-platform combination.
 
 ## Result
 | Platform   | Prompt Type      | Accuracy | Coherence | Simplicity | Speed | UX | **Total (/25)** |
